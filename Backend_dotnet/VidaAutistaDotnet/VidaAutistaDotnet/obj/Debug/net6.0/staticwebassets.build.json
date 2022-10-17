@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "pJUaJxcMxquSxxQh9/m89zjs9okq0Yf8Cx843CT9Qys=",
+  "Source": "VidaAutistaDotnet.API",
+  "BasePath": "_content/VidaAutistaDotnet.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "VidaAutistaDotnet.API\\wwwroot",
+      "Source": "VidaAutistaDotnet.API",
+      "ContentRoot": "C:\\Jackson\\Faculdade\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet\\wwwroot\\",
+      "BasePath": "_content/VidaAutistaDotnet.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Jackson\\Faculdade\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet\\wwwroot\\images\\inclusao.png",
+      "SourceId": "VidaAutistaDotnet.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Jackson\\Faculdade\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet\\wwwroot\\",
+      "BasePath": "_content/VidaAutistaDotnet.API",
+      "RelativePath": "images/inclusao.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\inclusao.png"
+    },
+    {
+      "Identity": "C:\\Jackson\\Faculdade\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet\\wwwroot\\images\\logonew.png",
+      "SourceId": "VidaAutistaDotnet.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Jackson\\Faculdade\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet\\wwwroot\\",
+      "BasePath": "_content/VidaAutistaDotnet.API",
+      "RelativePath": "images/logonew.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logonew.png"
+    },
+    {
+      "Identity": "C:\\Jackson\\Faculdade\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet\\wwwroot\\images\\sobrenos.jpg",
+      "SourceId": "VidaAutistaDotnet.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Jackson\\Faculdade\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet\\wwwroot\\",
+      "BasePath": "_content/VidaAutistaDotnet.API",
+      "RelativePath": "images/sobrenos.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sobrenos.jpg"
+    }
+  ]
+}
