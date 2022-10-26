@@ -17,5 +17,7 @@ namespace VidaAutistaDotnet.Application.DTO
         public string Anotacoes { get; set; }
 
         public string TipoEvento { get; set; }
+
+        public string NomeUsuario { get; set; }
     }
 }

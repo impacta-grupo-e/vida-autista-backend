@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WI9wg+yaXfD/+nPXKrUWWRY44KQgAu7Fu1Wdax7DVKwyrWdJtSIUg5H/HgPuBAyo2GLm8s2Ii1jWuG9n8KpV+A==",
+  "dgSpecHash": "TsEJT/EbrhKM8uTKA1WBt344dCUnvjg2y0UebMvmDNZsAe/+Jyz7ERbRwmLXuWTxeEn0cYV8Sbuq5Jkaa/UjGQ==",
   "success": true,
-  "projectFilePath": "C:\\Jackson\\Faculdade\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet.Domain\\VidaAutistaDotnet.Domain.csproj",
+  "projectFilePath": "C:\\Jackson\\Faculdade\\Bootcamp\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet.Domain\\VidaAutistaDotnet.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

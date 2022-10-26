@@ -91,9 +91,12 @@ namespace VidaAutistaDotnet.Infra.Data.Repositories
         {
 
 
-            string sql = "SELECT id_calendario, id_usuario, nome_medico, especialidade_medico, anotacoes, data_hora_evento, tipo_evento " +
-                          "FROM calendario " +
-                          "WHERE id_usuario=@idUsuario; ";
+            string sql = 
+            @"SELECT A.id_calendario, A.id_usuario, A.nome_medico, 
+            A.especialidade_medico, A.anotacoes, A.data_hora_evento, A.tipo_evento, B.nome
+            FROM calendario AS A
+            INNER JOIN usuario AS B ON B.id_usuario=A.id_usuario
+            WHERE A.id_usuario=@idUsuario; ";
 
             using (var connection = _connection.Connection())
             {

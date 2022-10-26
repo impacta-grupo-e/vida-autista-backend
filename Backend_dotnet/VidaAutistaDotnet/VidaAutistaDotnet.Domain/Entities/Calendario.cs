@@ -29,5 +29,8 @@ namespace VidaAutistaDotnet.Domain.Entities
         [Column("tipo_evento")]
         public string TipoEvento { get; set; }
 
+        [Column("nome")]
+        public string NomeUsuario { get; set; }
+
     }
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Jackson\\Faculdade\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet.Domain\\VidaAutistaDotnet.Domain.csproj",
+      "projectUniqueName": "C:\\Jackson\\Faculdade\\Bootcamp\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet.Domain\\VidaAutistaDotnet.Domain.csproj",
       "projectName": "VidaAutistaDotnet.Domain",
-      "projectPath": "C:\\Jackson\\Faculdade\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet.Domain\\VidaAutistaDotnet.Domain.csproj",
+      "projectPath": "C:\\Jackson\\Faculdade\\Bootcamp\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet.Domain\\VidaAutistaDotnet.Domain.csproj",
       "packagesPath": "C:\\Users\\jacks\\.nuget\\packages\\",
-      "outputPath": "C:\\Jackson\\Faculdade\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet.Domain\\obj\\",
+      "outputPath": "C:\\Jackson\\Faculdade\\Bootcamp\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

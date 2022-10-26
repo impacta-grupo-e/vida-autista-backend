@@ -211,7 +211,10 @@ position: relative;
                         "<td>" + item.Anotacoes + "</td>" +
                     "</tr>";
             }
+            
             string email = BuscaHtml()
+                .Replace("@dataInicio", calendarios.Min(x => x.DataHoraEvento).ToString("dd/MM/yyyy"))
+                .Replace("@dataFim", calendarios.Max(x => x.DataHoraEvento).ToString("dd/MM/yyyy"))
                 .Replace("@nome", "Jackson")
                 .Replace("@calendarios", produtos);
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tg+ZvIL6H2EKqAAu+1qmma9UccRFXkuV7xL7Fj17Z8KRxDCqLd5KJ+7+ATquBJPYr0+vpXNMGb/WwN3+5qjbTA==",
+  "dgSpecHash": "aHhdx6UYQi17PaWrLkDmQJNF/GOfGHVW02bQeGmwN0SC0br2GWIqeC8m3JbVWW1GDdW7yD5eZJ0hnQCa9L6j/A==",
   "success": true,
-  "projectFilePath": "C:\\Jackson\\Faculdade\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet.Application\\VidaAutistaDotnet.Application.csproj",
+  "projectFilePath": "C:\\Jackson\\Faculdade\\Bootcamp\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet.Application\\VidaAutistaDotnet.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jacks\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\jacks\\.nuget\\packages\\dinktopdf\\1.0.8\\dinktopdf.1.0.8.nupkg.sha512",

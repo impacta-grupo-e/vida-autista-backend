@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GXbYJRYE2S/Wwy2oxaYFrccUGKGeKYr+4pVJ2PFzhPUz/FE0qCIOzENiQUq1if9CHX9iPOsDimpzQF/QPr55Dw==",
+  "dgSpecHash": "YLz2mk3uz2A0cEbdHrtgNz0PrHOWeT/u490BFzX63nwgeZokJrm1+ujxYKJfjS5T+LH/42zwkE+q1iGp6W/9rQ==",
   "success": true,
-  "projectFilePath": "C:\\Jackson\\Faculdade\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet.Infra.IoC\\VidaAutistaDotnet.Infra.IoC.csproj",
+  "projectFilePath": "C:\\Jackson\\Faculdade\\Bootcamp\\vida-autista-backend\\Backend_dotnet\\VidaAutistaDotnet\\VidaAutistaDotnet.Infra.IoC\\VidaAutistaDotnet.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jacks\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\jacks\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
