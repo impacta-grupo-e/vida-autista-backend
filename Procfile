@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -Dspring.profiles.active=prod $JAVA_OPTS -jar target/com.vidaaustista.bootcamp-0.0.1-SNAPSHOT.jar 
+web: java -Dserver.port=$PORT -Dspring.profiles.active=prod $JAVA_OPTS -jar target/bootcamp-0.0.1-SNAPSHOT.jar 
