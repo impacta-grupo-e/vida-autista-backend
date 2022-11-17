@@ -51,6 +51,15 @@ public class JornadaService {
         }
     }
 
+    public void deletarObservacao(Integer idAnotacao){
+        try {
+            Optional<NotesEntity> anotacao = notesRepository.findById(idAnotacao);
+            notesRepository.delete(anotacao.get());
+        } catch (Exception ex) {
+            throw new RuntimeException("Erro ao deletar anotacao");
+        }
+    }
+
     public List<NotesEntity> recuperarTodasObervacoes(int idUser) {
         return notesRepository.findbyIdUsuario(idUser);
     }

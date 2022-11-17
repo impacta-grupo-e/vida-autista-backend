@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface NotesRepository extends JpaRepository<NotesEntity, Long> {
+public interface NotesRepository extends JpaRepository<NotesEntity, Integer> {
 
     @Query(value = "SELECT * FROM vidaautista.notes_entity where id_usuario = ? order by data_observacao desc;",
             nativeQuery = true)

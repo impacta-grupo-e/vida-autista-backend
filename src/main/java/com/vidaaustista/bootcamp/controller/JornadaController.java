@@ -45,6 +45,17 @@ public class JornadaController {
         }
     }
 
+    @DeleteMapping("/notes/{id}")
+    public ResponseEntity<NotesEntity> inserirNovaObservacao(@PathVariable Integer id){
+        try {
+            jornadaService.deletarObservacao(id);
+            return ResponseEntity.ok().build();
+
+        }catch(Exception ex) {
+            return ResponseEntity.badRequest().build();
+        }
+    }
+
     @GetMapping("/notes/all/{id}")
     public ResponseEntity<List<NotesEntity>> mostrarTodasObservacoes(@PathVariable int id){
         return ResponseEntity.ok(jornadaService.recuperarTodasObervacoes(id));
