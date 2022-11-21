@@ -6,26 +6,30 @@ files:
     destination: /home/ec2-user/server
 
 permissions:
-  - object: /home/ec2-user/server
+  - object: /
     pattern: "**"
     owner: ec2-user
     group: ec2-user
+  - object: /home/ec2-user/server
     mode: 755
+    pattern: "**"
+    owner: ec2-user
+    group: ec2-user
 
 hooks:
   BeforeInstall:
-    - location: script/server_clear.sh
+    - location: scripts/server_clear.sh
       timeout: 300
       runas: ec2-user
   AfterInstall:
-    - location: script/fix_privileges.sh
+    - location: scripts/fix_privileges.sh
       timeout: 300
       runas: ec2-user
   ApplicationStart:
-    - location: script/server_start.sh
+    - location: scripts/server_start.sh
       timeout: 60
       runas: ec2-user
   ApplicationStop:
-    - location: script/server_stop.sh
+    - location: scripts/server_stop.sh
       timeout: 60
       runas: ec2-user
