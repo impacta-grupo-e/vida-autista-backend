@@ -12,11 +12,9 @@ import java.util.Optional;
 @Repository
 public interface NotesRepository extends JpaRepository<NotesEntity, Integer> {
 
-    @Query(value = "SELECT * FROM vidaautista.notes_entity where id_usuario = ? order by data_observacao desc;",
-            nativeQuery = true)
-    List<NotesEntity> findbyIdUsuario(Integer idUser);
+        @Query(value = "SELECT * FROM notes_entity where id_usuario = ? order by data_observacao desc;", nativeQuery = true)
+        List<NotesEntity> findbyIdUsuario(Integer idUser);
 
-    @Query(value = "SELECT * FROM vidaautista.notes_entity where id_usuario = ? and id_fase = ? order by data_observacao desc;",
-            nativeQuery = true)
-    List<NotesEntity> findbyIdUsuarioEFase(Integer idUser, Integer fase);
+        @Query(value = "SELECT * FROM notes_entity where id_usuario = ? and id_fase = ? order by data_observacao desc;", nativeQuery = true)
+        List<NotesEntity> findbyIdUsuarioEFase(Integer idUser, Integer fase);
 }
